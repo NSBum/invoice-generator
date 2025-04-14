@@ -102,7 +102,6 @@ export const currencyList: {
       iconName: "JP",
     },
   },
-  // Rest of the existing currencies remain unchanged
   {
     value: "KRW",
     label: "KRW",
