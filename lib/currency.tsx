@@ -15,6 +15,7 @@ import {
   GB,
   FlagComponent,
   ID,
+  CA,
 } from "country-flag-icons/react/1x1";
 
 export const currencyList: {
@@ -78,6 +79,18 @@ export const currencyList: {
     },
   },
   {
+    value: "CAD",
+    label: "CAD",
+    details: {
+      country: "Canada",
+      currencySymbol: "$",
+      currencyName: "Canadian Dollar",
+      currencyShortForm: "CAD",
+      icon: CA,
+      iconName: "CA",
+    },
+  },
+  {
     value: "JPY",
     label: "JPY",
     details: {
@@ -89,6 +102,7 @@ export const currencyList: {
       iconName: "JP",
     },
   },
+  // Rest of the existing currencies remain unchanged
   {
     value: "KRW",
     label: "KRW",
